@@ -1,0 +1,1 @@
+struct Book *issue[10];
