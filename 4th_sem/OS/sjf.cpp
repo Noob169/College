@@ -52,7 +52,7 @@ void execute(int idle, int *at,int *bt, int *ct, int *tat, int *wt, int *rt, int
         ct[i]=c+bt[i];
         c=ct[i];
         tat[i]=ct[i]-at[i];
-        wt[i]=
+        wt[i]=tat[i]-bt[i];
     }
 }
 int main()
